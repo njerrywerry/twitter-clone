@@ -1,17 +1,23 @@
 {
-  "name" : "twitter-clone",
-  "version" : "0.0.0",
-  "description" : "code repository for twitter-clone",
-  "main" : "server.js",
-  "repository" : {
-    "type" : "git",
-    "url" : ""
+  "name": "twitter-clone",
+  "version": "0.0.0",
+  "description": "code repository for twitter-clone",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/njerrywerry/twitter-clone"
   },
-  "dependencies" : {
-    "express" : "latest",
-    "mongoose" : "latest"
+  "author": "Sylvia Kieha",
+  "license": "MIT",
+  "homepage": "https://github.com/njerrywerry/twitter-clone",
+  "bugs": {
+    "url": "https://github.com/njerrywerry/twitter-clone/issues"
   },
-  "author" : "Sylvia Kieha",
-  "license" : "MIT",
-  "homepage" : ""
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongoose": "^4.4.17"
+  }
 }
