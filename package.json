@@ -1,0 +1,17 @@
+{
+  "name" : "twitter-clone",
+  "version" : "0.0.0",
+  "description" : "code repository for twitter-clone",
+  "main" : "server.js",
+  "repository" : {
+    "type" : "git",
+    "url" : ""
+  },
+  "dependencies" : {
+    "express" : "latest",
+    "mongoose" : "latest"
+  },
+  "author" : "Sylvia Kieha",
+  "license" : "MIT",
+  "homepage" : ""
+}
