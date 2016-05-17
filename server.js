@@ -19,9 +19,24 @@ router.get('/tweets', function(req, res) {
   res.json({ tweet: "Yippee!" });
 });
 
-// user route
+// user get route
 router.get('/users', function(req, res) {
   res.json({ username: 'njerrywerry', email: 'sylviakieha@gmail.com'})
+})
+
+// user post route
+router.post('/users', function(req, res) {
+  res.send('Got a POST request');
+})
+
+// user put route
+router.put('/users', function(req, res) {
+  res.send('Got a PUT request');
+})
+
+// user delete route
+router.delete('/users', function(req, res) {
+  res.send('Got a DELETE request');
 })
 
 // route registration
